@@ -1052,6 +1052,8 @@ fi
                   <li>
                     <a
                       href="https://www.linkedin.com/company/myndra/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="hover:text-white transition-colors"
                     >
                       Linkedin

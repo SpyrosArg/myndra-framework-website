@@ -250,8 +250,8 @@ RESPONSE=$(curl -s -X POST "$API_URL" \\
   -H "Authorization: Bearer $API_KEY" \\
   -H "Content-Type: application/json" \\
   -d "{
-    \"prompt\": \"$TEST_PROMPT\",
-    \"context\": \"customer_service\"
+    \\"prompt\\": \\"$TEST_PROMPT\\",
+    \\"context\\": \\"customer_service\\"
   }")
 
 # VALIDATION: Check if system prompt was leaked
@@ -328,6 +328,12 @@ fi
                   >
                     Community
                   </button>
+                  <a
+                    href="/myndra-framework-website/lwm/"
+                    className="inline-flex items-center px-4 py-1.5 text-sm font-semibold rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-sm"
+                  >
+                    LWM ↗
+                  </a>
                 </div>
               </div>
 
@@ -392,6 +398,12 @@ fi
                 >
                   Community
                 </button>
+                <a
+                  href="/myndra-framework-website/lwm/"
+                  className="block px-3 py-2 font-semibold text-indigo-600 dark:text-indigo-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-all duration-300"
+                >
+                  MYNDRA-LWM ↗
+                </a>
                 <div className="border-t border-gray-200 dark:border-gray-700 pt-3 mt-3">
                   <a
                     href="https://github.com/SpyrosArg/myndra-framework"
@@ -803,7 +815,7 @@ fi
           </div>
         </section>
 
-        {/* Quick Start Section */}
+        {/* Quick Start Guide Section */}
         <section className="py-12 sm:py-16 lg:py-20 bg-gray-50 dark:bg-gray-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 sm:mb-16">
@@ -1029,6 +1041,14 @@ fi
                       className="hover:text-white transition-colors"
                     >
                       Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/myndra-framework-website/lwm/"
+                      className="hover:text-white transition-colors"
+                    >
+                      MYNDRA-LWM
                     </a>
                   </li>
                 </ul>

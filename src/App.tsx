@@ -329,7 +329,7 @@ fi
                     Community
                   </button>
                   <a
-                    href="/myndra-framework-website/lwm/"
+                    href="https://spyrosarg.github.io/myndra-lwm"
                     className="inline-flex items-center px-4 py-1.5 text-sm font-semibold rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-sm"
                   >
                     LWM ↗
@@ -399,7 +399,7 @@ fi
                   Community
                 </button>
                 <a
-                  href="/myndra-framework-website/lwm/"
+                  href="https://spyrosarg.github.io/myndra-lwm"
                   className="block px-3 py-2 font-semibold text-indigo-600 dark:text-indigo-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-all duration-300"
                 >
                   MYNDRA-LWM ↗
@@ -1045,8 +1045,10 @@ fi
                   </li>
                   <li>
                     <a
-                      href="/myndra-framework-website/lwm/"
-                      className="hover:text-white transition-colors"
+                       href="https://spyrosarg.github.io/myndra-lwm"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition-colors"
                     >
                       MYNDRA-LWM
                     </a>
